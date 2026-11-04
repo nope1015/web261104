@@ -3,6 +3,22 @@
 const titles = ["극장판 치이카와: 인어 섬의 비밀", "F1 더 무비", "분노의 질주: 더 세븐", "그란 투리스모", "라이언 일병 구하기"];
 const ratings = [7.4, 7.83, 7.2, 7.69, 8.24];
 const years = [2026, 2025, 2015, 2023, 1998];
+
+for(let index in titles){
+    console.log(`영화 ${index} : ${titles[index]} (${years[index]}) : ${ratings[index]}`);
+}
+
+const gugudan = (dan) => {
+    for (let i = 1; i <= 9; i++){
+        console.log(`${dan} x ${i} = ${dan * i}`);
+    }
+};
+gugudan(2,5);
+
+(function init (){
+    console.log("초기화 실행");
+})();
+
 let sum = 0;
 for (let i = 0; i < ratings.length; i++) {
  sum = sum + ratings[i];

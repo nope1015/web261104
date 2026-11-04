@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 영화 보드</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<script src="script.js"></script> 
+<body>
+    <header class="top">
+        <h1>내 영화 보드</h1>
+        <nav>
+            <ul>
+                <li><a href="#board">보드</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="detail.html">상세</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>요즘 내가 고른 영화 다섯 편</h2>
+        <p>포스터 위에 마우스를 올려 보세요.</p>
+    </section>
+
+    <main>
+        <section class="board" id="board">
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/5TMyytCI5Pfc9c1eNsljiCdiB05.jpg"
+                    alt="극장판 치이카와: 인어 섬의 비밀 포스터">
+                <span class="badge">7.4</span>
+                <div class="info">
+                    <h3>극장판 치이카와: 인어 섬의 비밀</h3>
+                    <p class="year">2026/7/24</p>
+                    <p class="overview">어느 날, 광장에서 쉬고 있던 치이카와와 가르마 앞에 얼굴에 전단지를 붙인 토끼가 나타난다.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/bvVoP1t2gNvmE9ccSrqR1zcGHGM.jpg"
+                    alt="F1 더 무비 포스터">
+                <span class="badge">7.83</span>
+                <div class="info">
+                    <h3>F1 더 무비</h3>
+                    <p class="year">2025/06/25</p>
+                    <p class="overview">한때 주목받는 유망주였지만 끔찍한 사고로 F1®에서 우승하지 못하고 한순간에 추락한 드라이버 소니 헤이스.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/ehzI1mVcnHqB58NqPyQwpMqcVoz.jpg"
+                    alt="분노의 질주: 더 세븐 포스터">
+                <span class="badge">7.2</span>
+                <div class="info">
+                    <h3>분노의 질주: 더 세븐</h3>
+                    <p class="year">2015/04/01</p>
+                    <p class="overview">도미닉과 멤버들은 범죄조직 소탕 후 모든 전과를 사면 받고 평범한 일상으로 돌아간다.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/mewjjhpju5JT1wDFJDMdctWcCqd.jpg"
+                    alt="그란 투리스모 포스터">
+                <span class="badge">7.69</span>
+                <div class="info">
+                    <h3>그란 투리스모</h3>
+                    <p class="year">2023/08/09</p>
+                    <p class="overview">레이싱 게임 ‘그란 투리스모’의 덕후 ‘잔 마든보로’ 스피드라고는 게임으로만 만족해야 했던 그에게 레이싱 선수 발굴을 목표로 만들어진
+                        ‘그란 투리스모 콘테스트’라는 기회가 찾아온다.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/9W0XUvNtoJMG6kI4F4Y2mbsS2kt.jpg"
+                    alt="라이언 일병 구하기 포스터">
+                <span class="badge">8.24</span>
+                <div class="info">
+                    <h3>라이언 일병 구하기</h3>
+                    <p class="year">1998/07/24</p>
+                    <p class="overview">노르망디 상륙 작전에서 살아남은 존 밀러 미군 대위가 대원들을 이끌고 적진에 침투한다.</p>
+                </div>
+            </article>
+        </section>
+        <section id="about">
+            <h2>이 보드에 대하여</h2>
+            <p>만든 사람과 영화를 고른 기준을 한두 문장으로 적습니다.</p>
+            <p>포스터와 영화 정보는 TMDB 검색 결과를 그대로 옮겼습니다.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>이 사이트는 TMDB API를 사용하지만 TMDB의 보증이나 인증을 받지 않았습니다.
+            This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        <p>포스터와 영화 정보: TMDB (https://www.themoviedb.org)</p>
+    </footer>
+
+</body>
+
+</html>
